@@ -1,0 +1,43 @@
+(base) abby@MacBook-Pro ~ % pwd
+/Users/abby
+(base) abby@MacBook-Pro ~ % cd Downloads/lingua-franca-project    
+(base) abby@MacBook-Pro lingua-franca-project % 
+(base) abby@MacBook-Pro lingua-franca-project % ls -a
+.		lingua-franca	tasks.html
+..		solution.html	world
+(base) abby@MacBook-Pro lingua-franca-project % mkdir world2
+(base) abby@MacBook-Pro lingua-franca-project % touch world2/esperanto.txt
+(base) abby@MacBook-Pro lingua-franca-project % ls -l -a -t
+total 56
+drwxr-xr-x   3 abby  staff     96 Feb  4 11:59 world2
+drwx------@  7 abby  staff    224 Feb  4 11:57 .
+drwx------+ 59 abby  staff   1888 Feb  4 11:48 ..
+drwxrwxr-x@  8 abby  staff    256 Jan  7 13:23 lingua-franca
+drwxr-xr-x   3 abby  staff     96 Jan  7 13:11 world
+-rw-rw-r--@  1 abby  staff   9151 Oct  5  2020 tasks.html
+-rw-rw-r--@  1 abby  staff  16043 Oct  5  2020 solution.html
+(base) abby@MacBook-Pro lingua-franca-project % cd lingua-franca 
+(base) abby@MacBook-Pro lingua-franca % ls europe/
+english.txt	german.txt	portuguese.txt	spanish.txt
+french.txt	italian.txt	russian.txt
+(base) abby@MacBook-Pro lingua-franca % ls todo/*     
+todo/asian_language_files.txt
+(base) abby@MacBook-Pro lingua-franca % ls asia/
+arabic.txt	hebrew.txt	japanese.txt	malay.txt
+chinese.txt	hindi.txt	korean.txt
+(base) abby@MacBook-Pro lingua-franca % ls asia/ > todo/asian_language_files.txt
+(base) abby@MacBook-Pro lingua-franca % sed -i 's/Lingua-Franca/Lingua Franca/g' */*.txt
+(base) abby@MacBook-Pro lingua-franca % nano ~/.bash_profile
+(base) abby@MacBook-Pro lingua-franca % nano .bash-profile
+
+alias md="mkdir"
+alias d="date"
+alias hy="history"
+
+(base) abby@MacBook-Pro lingua-franca % nano ~/.bash_profile
+(base) abby@MacBook-Pro lingua-franca % source ~/.bash_profile
+
+export PS1=">>>"
+
+(base) abby@MacBook-Pro lingua-franca % nano ~/.bash_profile
+
